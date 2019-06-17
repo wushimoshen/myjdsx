@@ -1,0 +1,407 @@
+.main {
+    line-height: 1.5;
+}
+
+.main .fresh .fresh-1 {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 30px;
+}
+
+.fresh-1-menu {
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.fresh-1-f {
+    margin-left: 223px;
+    width: 767px;
+    overflow: hidden;
+}
+
+.fresh-1-f a {
+    position: relative;
+    float: left;
+    padding: 0 27px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.fresh-1-f a:nth-child(1){
+    color: #00c65e;
+}
+.fresh-1-f a:hover{
+    color: #00c65e;
+}
+.fresh-1-f a:nth-child(n+2)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -7px;
+    width: 2px;
+    height: 14px;
+    background: #222;
+}
+/* 品质保证 */
+.fresh_fs_menu_news::after {
+    content: ">";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+    font-family: simsun;
+}
+.fresh_fs_menu_news::before {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -7px;
+    width: 15px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 15px;
+}
+.fresh_fs_menu_news{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 164px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 36px;
+    color: #00c65e;
+}
+/* 轮播图部分 */
+.fresh-1-main{
+    width: 100%;
+    height: 400px;
+    background: url(../img/首页/59a3d65eNd604759b.png) no-repeat 50% 0;
+    /* position: relative; */
+}
+.fresh-fs-main{
+    width: 1190px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+/* 京东生鲜商品分类 */
+.fresh-fs-nav{
+    position: relative;
+    z-index: 5;
+    float: left;
+    margin-top: -40px;
+    width: 190px;
+    height: 440px;
+    background: hsla(0, 0%, 100%, 95);
+}
+.fresh-fs-title{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #222;
+}
+.tab-head{
+    height: 100%;
+}
+.tab-head-item{
+    position: relative;
+    height: 80px;
+    border-left: 1px solid transparent;
+}
+.tab-head-item-inner{
+    position: relative;
+    padding: 18px 0 0 40px;
+    margin: 0 10px;
+    width: 130px;
+    height: 61px;
+    border-top: 1px dotted #ddd;
+}
+.tab-head-item-inner i{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: url(../img/首页/sprite_fresh_fs.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+}
+.tab-head-item .item2 i{
+    background-position: -28px 0px;
+}
+.tab-head-item .item3 i{
+    background-position: -56px 0px;
+}
+.tab-head-item .item4 i{
+    background-position: 0px -28px;
+}
+.tab-head-item .item5 i{
+    background-position: -28px -28px;
+}
+/* 食品分类 */
+.fresh-fs-nav .tab-head-item .item_title::after {
+
+    content: ">";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 19px;
+    line-height: 19px;
+    font-family: simsun;
+
+}
+.fresh-fs-nav .tab-head-item .item_title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-bottom: 7px;
+    height: 19px;
+    font-size: 14px;
+    color: #222;
+    font-weight: 700;
+}
+.fresh-fs-nav .tab-head-item div a:nth-child(1){
+    border-left: none;
+    padding-left: 0;
+
+}
+.fresh-fs-nav .tab-head-item div div a{
+    display: inline-block;
+    padding: 0 5px;
+    padding-left: 5px;
+    color: #909090;
+    border-left: 1px solid #909090;
+    line-height: 1;
+}
+/* 轮播图 */
+.fresh-fs-carousel {
+    width: 800px;
+    height: 400px;
+    /* background: #f08; */
+    overflow: hidden;
+    position: relative;
+    /* border: 5px solid #fff; */
+}
+
+.slider-box {
+    width:3200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-box p {
+    width: 800px;
+    height: 400px;
+    float: left;
+}
+
+.slider-box p img {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-control {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-control button {
+    /* display: block; */
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    color: #fff;
+    font-size: 20px;
+    /* display: none; */
+    background-color: rgba(0,0,0,.1);
+}
+
+.slider-control .prev {
+    left: 0px;
+}
+
+.slider-control .next {
+    right:0px;
+}
+
+.slider-nav {
+    position: absolute;
+    right: 50%;
+    margin-right: -44px;
+    bottom: 20px;
+    z-index: 5;
+}
+
+.slider-nav span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    line-height: 20px;
+    background: hsla(0,0%,100%,.5);
+    z-index: 5;
+    text-align: center;
+    /* font-size: 14px; */
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    /* display: inline-block */
+}
+
+.slider-nav span.active {
+    width: 24px;
+}
+/* 生鲜头条 */
+.fresh-fs-side{
+    display: block;
+    float: right;
+    width: 200px;
+    height: 400px;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.fresh-fs-side .fresh-fs-toutiao{
+    height: 136px;
+    border-top: 4px solid #00c65d;
+    background: #fff;
+}
+
+.fresh-fs-toutiao-title {
+    position: relative;
+    height: 24px;
+    padding: 16px 0;
+    font-size: 16px;
+    color: #222;
+    text-align: center;
+}
+.fresh-fs-toutiao-title span{
+    display: inline-block;
+    /* font-size: 16px; */
+    width: 75px;
+    height: 24px;
+    overflow: hidden;
+}
+.fresh-fs-toutiao-title span em{
+    color: #00c65d;
+}
+.fresh_fs_toutiao_title_l::after {
+
+    right: 0;
+
+}
+.fresh_fs_toutiao_title_l::after, .fresh_fs_toutiao_title_r::after {
+
+    content: "";
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 2px;
+    background: #222;
+    bottom: 0;
+
+}
+
+.fresh-fs-toutiao-title .f{
+    left: 10px;
+}
+.fresh-fs-toutiao-title .r{
+    right: 10px;
+}
+.fresh-fs-toutiao-title .f, .fresh-fs-toutiao-title .r {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 1px;
+    background: #f0f0f8;
+}
+.fresh-fs-toutiao-title i::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 2px;
+    background: #222;
+    bottom: 0;
+}
+.fresh-fs-toutiao-title .f::after{
+    right: 0;
+}
+.fresh_fs_toutiao_item a::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -2px;
+    width: 3px;
+    height: 3px;
+    background: #6f6f6f;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    transition: all .25s ease;
+
+}
+
+.fresh_fs_toutiao_item a{
+    position: relative;
+    display: block;
+    margin: 0 16px 6px 0;
+    padding-left: 18px;
+    color: #222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition: color .25s ease;
+    -moz-transition: color .25s ease;
+    transition: color .25s ease;
+
+}
+.fresh_fs_toutiao_item a:hover{
+    color: #00c65d;
+}
+.fresh_fs_toutiao_item a:hover::before{
+    height: 100%;
+    top: 0;
+    background: #00c65d;
+}
+/* 轮播左下角的花朵 */
+
+.fresh-fs-bgl {
+    position: absolute;
+    z-index: 5;
+    top: 340px;
+    left: -120px;
+    background-image: url(../img/首页/lunbozuoxia.png);
+    background-position: -335px -354px;
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 120px;
+}
+.fresh_fs_shadow {
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+    width: 1190px;
+    height: 24px;
+    background: url(../img/首页/fresh_fs_shadow.png) 0 0 no-repeat;
+}

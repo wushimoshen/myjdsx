@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>京东生鲜</title>
+    <link rel="stylesheet" href="../server/font_1238760_mi84f6bv28k/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/jd-toubu.css">
+    <link rel="stylesheet" href="../css/jd-lunbo.css">
+    <link rel="stylesheet" href="../css/jd-caidan.css">
+    <link rel="stylesheet" href="../css/jd-main3.css">
+    <script src="../server/jquery-3.4.1.js"></script>
+    <script src="../js/jd-lunbo.js"></script>
+    <script src="../js/jd-caidan.js"></script>
+
+</head>
+
+<body>
+    <!-- 头部内容 -->
+    <div id="header">
+        <div class="nav content">
+            <ul class="fl">
+                <li id="ttbar-home"> <i class="iconfont icon-shouye"></i> <a href="https://www.jd.com/">京东首页</a></li>
+                <li class="dorpdown" id="ttbar-mycity">
+                    <div class="iconfont icon-dizhi"><span class="ui-areamini-text" data-id="19" title="广东">广东</span>
+                    </div>
+                    <div class="dd dorpdown-layer">
+                        <div class="dd-spacer"></div>
+                        <div class="ui-areamini-content-wrap" style="left: auto;">
+                            <div class="ui-areamini-content">
+                                <div class="ui-areamini-content-list clearfix">
+                                    <div class="item"><a data-id="1" href="javascript:void(0)">北京</a></div>
+                                    <div class="item"><a data-id="2" href="javascript:void(0)">上海</a></div>
+                                    <div class="item"><a data-id="3" href="javascript:void(0)">天津</a></div>
+                                    <div class="item"><a data-id="4" href="javascript:void(0)">重庆</a></div>
+                                    <div class="item"><a data-id="5" href="javascript:void(0)">河北</a></div>
+                                    <div class="item"><a data-id="6" href="javascript:void(0)">山西</a></div>
+                                    <div class="item"><a data-id="7" href="javascript:void(0)">河南</a></div>
+                                    <div class="item"><a data-id="8" href="javascript:void(0)">辽宁</a></div>
+                                    <div class="item"><a data-id="9" href="javascript:void(0)">吉林</a></div>
+                                    <div class="item"><a data-id="10" href="javascript:void(0)">黑龙江</a></div>
+                                    <div class="item"><a data-id="11" href="javascript:void(0)">内蒙古</a></div>
+                                    <div class="item"><a data-id="12" href="javascript:void(0)">江苏</a></div>
+                                    <div class="item"><a data-id="13" href="javascript:void(0)">山东</a></div>
+                                    <div class="item"><a data-id="14" href="javascript:void(0)">安徽</a></div>
+                                    <div class="item"><a data-id="15" href="javascript:void(0)">浙江</a></div>
+                                    <div class="item"><a data-id="16" href="javascript:void(0)">福建</a></div>
+                                    <div class="item"><a data-id="17" href="javascript:void(0)">湖北</a></div>
+                                    <div class="item"><a data-id="18" href="javascript:void(0)">湖南</a></div>
+                                    <div class="item"><a data-id="19" href="javascript:void(0)" class="selected">广东</a>
+                                    </div>
+                                    <div class="item"><a data-id="20" href="javascript:void(0)">广西</a></div>
+                                    <div class="item"><a data-id="21" href="javascript:void(0)">江西</a></div>
+                                    <div class="item"><a data-id="22" href="javascript:void(0)">四川</a></div>
+                                    <div class="item"><a data-id="23" href="javascript:void(0)">海南</a></div>
+                                    <div class="item"><a data-id="24" href="javascript:void(0)">贵州</a></div>
+                                    <div class="item"><a data-id="25" href="javascript:void(0)">云南</a></div>
+                                    <div class="item"><a data-id="26" href="javascript:void(0)">西藏</a></div>
+                                    <div class="item"><a data-id="27" href="javascript:void(0)">陕西</a></div>
+                                    <div class="item"><a data-id="28" href="javascript:void(0)">甘肃</a></div>
+                                    <div class="item"><a data-id="29" href="javascript:void(0)">青海</a></div>
+                                    <div class="item"><a data-id="30" href="javascript:void(0)">宁夏</a></div>
+                                    <div class="item"><a data-id="31" href="javascript:void(0)">新疆</a></div>
+                                    <div class="item"><a data-id="52993" href="javascript:void(0)">港澳</a></div>
+                                    <div class="item"><a data-id="32" href="javascript:void(0)">台湾</a></div>
+                                    <div class="item"><a data-id="84" href="javascript:void(0)">钓鱼岛</a></div>
+                                    <div class="item"><a data-id="53283" href="javascript:void(0)">海外</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="areamini_inter">
+                            <div class="areamini_inter_split"></div>
+                            <p class="areamini_inter_desc">Available Sites</p>
+                            <ul class="areamini_inter_list">
+                                <li class="areamini_inter_item"> <a class="areamini_inter_lk"
+                                        href="//www.joybuy.com/?source=1&amp;visitor_from=2" target="_blank"
+                                        clstag="h|keycount|head|topbar_0101">
+                                        <div class="areamini_inter_ico areamini_inter_ico_global"></div>
+                                        <div class="areamini_inter_name">Global Site</div>
+                                    </a> </li>
+                                <li class="areamini_inter_item"> <a class="areamini_inter_lk"
+                                        href="//www.jd.ru/?source=1&amp;visitor_from=2" target="_blank"
+                                        clstag="h|keycount|head|topbar_0102">
+                                        <div class="areamini_inter_ico areamini_inter_ico_russia"></div>
+                                        <div class="areamini_inter_name">Сайт России</div>
+                                    </a> </li>
+                                <li class="areamini_inter_item"> <a class="areamini_inter_lk"
+                                        href="//www.jd.id/?source=1&amp;visitor_from=2" target="_blank"
+                                        clstag="h|keycount|head|topbar_0103">
+                                        <div class="areamini_inter_ico areamini_inter_ico_indonesia"></div>
+                                        <div class="areamini_inter_name">Situs Indonesia</div>
+                                    </a> </li>
+                                <li class="areamini_inter_item"> <a class="areamini_inter_lk"
+                                        href="//www.joybuy.es/?source=1&amp;visitor_from=2" target="_blank"
+                                        clstag="h|keycount|head|topbar_0103">
+                                        <div class="areamini_inter_ico areamini_inter_ico_spain"></div>
+                                        <div class="areamini_inter_name">Sitio de España</div>
+                                    </a> </li>
+                                <li class="areamini_inter_item"> <a class="areamini_inter_lk"
+                                        href="//www.jd.co.th/?source=1&amp;visitor_from=2" target="_blank"
+                                        clstag="h|keycount|head|topbar_0105">
+                                        <div class="areamini_inter_ico areamini_inter_ico_thailand"></div>
+                                        <div class="areamini_inter_name">เว็บไซต์ประเทศไทย</div>
+                                    </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="fr">
+                <li class="fore1" id="ttbar-login"><a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/jddenglu.html?;"
+                        class="link-login style-red">jd_281870220，请登录</a>&nbsp;&nbsp;<a href="javascript:regist();"
+                        class="link-regist">免费注册</a></li>
+                <li class="fore2">
+                    <div class="dt">
+                        <a target="_blank" href="">我的订单</a>
+                    </div>
+                </li>
+                <li class="spacer"></li>
+                <li class="fore3 dorpdown" id="ttbar-myjd" data-load="1">
+                    <div class="dt cw-icon">
+                        <a target="_blank" href="https://home.jd.com/">我的京东</a>
+                        <i class="iconfont icon-icon-test"></i>
+                    </div>
+                </li>
+                <li class="spacer"></li>
+                <li class="fore4" id="ttbar-member">
+                    <div class="dt">
+                        <a target="_blank" href="https://vip.jd.com/">京东会员</a>
+                    </div>
+                </li>
+                <li class="spacer"></li>
+                <li class="fore5 dorpdown" id="ttbar-ent" data-load="1">
+                    <div class="dt cw-icon">
+                        <a target="_blank" href="https://b.jd.com/">企业采购</a>
+                        <i class="iconfont icon-icon-test"></i>
+                    </div>
+                </li>
+                <li class="fore6 dorpdown" id="ttbar-serv" data-load="1">
+                    <div class="dt cw-icon">
+
+                        客户服务
+                        <i class="iconfont icon-icon-test"></i>
+                    </div>
+                    <!-- <div class="item-client">客户</div>
+                    <div class="item"><a href="//help.jd.com/index.html" target="_blank" true="">帮助中心</a></div>
+                    <div class="item"><a href="//myjd.jd.com/afs/indexNew.action?entry=2" target="_blank"
+                            true="">售后服务</a></div>
+                    <div class="item"><a href="//chat.jd.com/jdchat/custom.action " target="_blank" true="">在线客服</a>
+                    </div>
+                    <div class="item"><a href="//myjd-crm.jd.com/opinion/orderList.action" target="_blank"
+                            true="">意见建议</a></div>
+                    <div class="item"><a href="//myjd-crm.jd.com/appoint/telebooking.action" target="_blank"
+                            true="">电话客服</a></div>
+                    <div class="item"><a href="//www.jd.com/contact/service.html" target="_blank" true="">客服邮箱</a>
+                    </div>
+                    <div class="item"><a href="https://jrhelp.jd.com/" target="_blank" true="">金融咨询</a></div>
+                    <div class="item"><a href="//chat.jd.com/jd/chat?entry=jd_web_joybuy" target="_blank"
+                            true="">全球售客服</a></div>
+                    <div class="item-business">商户</div>
+                    <div class="item"><a href="https://lai.jd.com" target="_blank" true="">合作招商</a></div>
+                    <div class="item"><a href="//chengzhang.jd.com" target="_blank" true="">成长中心</a></div>
+                    <div class="item"><a href="//shop.jd.com/" target="_blank" true="">商家后台</a></div>
+                    <div class="item"><a href="//jm.jd.com/index/index.html" target="_blank" true="">京麦工作台</a></div>
+                    <div class="item"><a href="//helpcenter.jd.com/venderportal/index.html" target="_blank"
+                            true="">商家帮助</a></div>
+                    <div class="item"><a href="//rule.jd.com/rule/index.action" target="_blank" true="">规则平台</a>
+                    </div> -->
+
+                </li>
+                <li class="spacer"></li>
+                <li class="fore7 dorpdown" id="ttbar-navs" data-load="1">
+                    <div class="dt cw-icon">
+                        <!-- <i class="ci-right"><s>◇</s></i> -->
+                        网站导航
+                        <i class="iconfont icon-icon-test"></i>
+                    </div>
+
+                </li>
+                <li class="spacer"></li>
+                <li class="fore8 dorpdown" id="ttbar-apps" data-load="1">
+                    <div class="dt cw-icon">
+                        <!-- <i class="ci-left"></i> -->
+                        <!-- <i class="ci-right"><s>◇</s></i> -->
+                        <a target="_blank" href="https://app.jd.com/">手机京东</a>
+                        <i class="iconfont icon-icon-test"></i>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- logo内容 -->
+    <div id="o-header-2013">
+        <div id="header-2013" style="display:none;"></div>
+    </div>
+    <div class="w has_qrcode" style="height:122px">
+        <div id="logo-2014"> <a href="//fresh.jd.com/" class="logo" style="background: none; left: 0px;">京东</a>
+            <div class="extra">
+                <div id="channel">京东生鲜</div>
+                <div id="categorys-mini">
+                    <div class="cw-icon">
+                        <h2><a href="//www.jd.com/allSort.aspx">全部分类<i class="ci-right"><s>◇</s></i></a></h2>
+                    </div>
+                    <div id="categorys-mini-main"> <span class="loading"></span> </div>
+                </div>
+            </div>
+        </div>
+        <div id="search-2014">
+            <ul id="shelper" class="hide" style="display: none;"></ul>
+            <div class="form"> <input type="text" onkeydown="javascript:if(event.keyCode==13) search('key');"
+                    autocomplete="off" id="key" accesskey="s" class="text"> <button
+                    onclick="search('key');return false;" class="button cw-icon"><i></i>搜索</button> </div>
+        </div>
+        <div id="settleup-2014" class="dorpdown">
+            <div class="cw-icon">
+                <i class="ci-left"></i>
+                <i class="ci-right">&gt;</i>
+                <i class="ci-count" id="shopping-amount">0</i>
+                <a target="_blank" href="https://cart.jd.com/cart.action" style="color: #666;">我的购物车</a>
+            </div>
+            <div class="dorpdown-layer">
+                <div class="spacer"></div>
+                <div id="settleup-content"><span class="loading"></span></div>
+            </div>
+        </div>
+        <div class="headerqrcode" id="J_headerqrcode" style="display: block;"><a href="javascript:;"
+                class="headerqrcode_lk"><i class="headerqrcode_ico"></i><span class="headerqrcode_txt">扫码享受优惠</span></a>
+            <div class="headerqrcode_qc">
+                <div class="headerqrcode_qcimg"><img src="../img/首页/https___3.cn_Nt4NqB-110-1-4-0.png"></div>
+                <div class="headerqrcode_arrow"><i class="headerqrcode_arrow_bd"></i><i
+                        class="headerqrcode_arrow_bg"></i></div>
+            </div>
+        </div>
+        <div id="hotwords">
+            <a href="">芒果</a>
+            <a href="">樱桃</a>
+            <a href="">三文鱼</a>
+            <a href="">小龙虾</a>
+            <a href="">鸡蛋</a>
+            <a href="">牛排</a>
+            <a href="">榴莲</a>
+        </div>
+    </div>
+    <!-- S 主体内容 -->
+    <div class="main" id="J_container">
+        <div class="fresh">
+            <!-- 主体第一部分 -->
+            <div class="fresh-1">
+                <!-- 主体1-1 -->
+                <div class="fresh-1-1">
+                    <div class="fresh-1-menu">
+                        <div class="fresh-1-f clearfix">
+                            <a href="https://fresh-qm.jd.com/">生鲜首页</a>
+                            <a href="https://fresh-qm.jd.com/">东家菜</a>
+                            <a href="https://fresh-qm.jd.com/">优选100</a>
+                            <a href="https://fresh-qm.jd.com/">试吃</a>
+                        </div>
+                        <a href="https://fresh-qm.jd.com/" class="fresh_fs_menu_news">品质保障</a>
+                    </div>
+                    <!-- 主体1-2 -->
+                    <div class="fresh-1-main">
+                        <div class="fresh-fs-main clearfix">
+                            <div class="fresh-fs-nav">
+                                <div class="fresh-fs-title">京东生鲜商品分类</div>
+                                <div class="fresh-fs-tab">
+                                    <ul class="tab-head">
+                                        <li class="tab-head-item">
+                                            <div class="tab-head-item-inner item1">
+                                                <i></i>
+                                                <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html" class="item_title">新鲜水果</a>
+                                                <div>
+                                                    <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html">柚子</a>
+                                                    <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html">榴莲</a>
+                                                    <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html">车厘子 </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="tab-head-item">
+                                            <div class="tab-head-item-inner item2">
+                                                <i></i>
+                                                <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html" class="item_title">海鲜水产</a>
+                                                <div>
+                                                    <a href="">小龙虾</a>
+                                                    <a href="">鱼类</a>
+                                                    <a href="">贝类</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="tab-head-item">
+                                            <div class="tab-head-item-inner item3">
+                                                <i></i>
+                                                <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html" class="item_title">精选肉类</a>
+                                                <div>
+                                                    <a href="">鸡翅</a>
+                                                    <a href="">猪肋排</a>
+                                                    <a href="">牛排</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="tab-head-item">
+                                            <div class="tab-head-item-inner item4">
+                                                <i></i>
+                                                <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html" class="item_title">冷冻食品</a>
+                                                <div>
+                                                    <a href="">酸奶</a>
+                                                    <a href="">冰淇淋</a>
+                                                    <a href="">牛奶</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="tab-head-item">
+                                            <div class="tab-head-item-inner item5">
+                                                <i></i>
+                                                <a href="file:///C:/Users/Administrator/Desktop/%E4%BA%AC%E4%B8%9C%E7%94%9F%E9%B2%9C/html/liebiaoye.html" class="item_title">蔬菜蛋品</a>
+                                                <div>
+                                                    <a href="">水培蔬菜</a>
+                                                    <a href="">玉米</a>
+                                                    <a href="">蛋品</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="tab_body" style="display: none">
+                                        <div class="tab_body_item">
+                                            <div class="fresh_fs_nav_cate"></div>
+                                        </div>
+                                        <!-- <div class="tab_body_item"></div>
+                                        <div class="tab_body_item"></div>
+                                        <div class="tab_body_item"></div>
+                                        <div class="tab_body_item"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 轮播图 -->
+                            <div class="fresh-fs-carousel">
+                                <div class="slider-box">
+                                    <p><img src="../img/首页/bannar-1.jpg" alt=""></p>
+                                    <p><img src="../img/首页/bannar-2.png" alt=""></p>
+                                    <p><img src="../img/首页/bannar-3.jpg" alt=""></p>
+                                    <p><img src="../img/首页/bannar-4.jpg" alt=""></p>
+                                </div>
+                                <div class="slider-control">
+                                    <button class="prev">&lt;</button>
+                                    <button class="next">&gt;</button>
+
+                                </div>
+                                <div class="slider-nav"></div>
+                            </div>
+                            <div class="fresh-fs-side">
+                                <div class="fresh-fs-toutiao">
+                                    <div class="fresh-fs-toutiao-title">
+                                        <i class="f"></i>
+                                        <span><em>生鲜</em>头条</span>
+                                        <i class="r"></i>
+                                    </div>
+                                    <div class="fresh_fs_toutiao_item">
+                                        <a href="">精挑细选100分营养美味</a>
+                                        <a href="">0元试吃 全新上线 抓紧尝鲜</a>
+                                        <a href="">一键立享 用心做顿好饭</a>
+                                    </div>
+                                </div>
+                                <a href=""><img src="../img/首页/f140ea34e1de6b48.png" alt=""></a>
+                            </div>
+                            <div class="fresh-fs-bgl"></div>
+                            <div class="fresh_fs_shadow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 主体第二部分 -->
+            <div class="fresh_service grid_c1" id="fresh_service_2">
+                <ul class="mod_service grid_c1 clearfix">
+                    <li class="mod_service_item item1">
+                        <div class="mod_service_item_inner"><i
+                                class="fresh-mod-iconfont iconfont icon-shipinanquan"></i>
+                            <p class="mod_service_title">食品安全</p>
+                            <p class="mod_service_desc">精选生鲜 严格质检</p>
+                        </div>
+                    </li>
+                    <li class="mod_service_item item2">
+                        <div class="mod_service_item_inner"><i
+                                class="fresh-mod-iconfont iconfont icon-quanchenglenglian"></i>
+                            <p class="mod_service_title">全程冷链</p>
+                            <p class="mod_service_desc">自营物流 安全可控</p>
+                        </div>
+                    </li>
+                    <li class="mod_service_item item3">
+                        <div class="mod_service_item_inner"><i
+                                class="fresh-mod-iconfont iconfont icon-xianhuotianran"></i>
+                            <p class="mod_service_title">鲜活天然</p>
+                            <p class="mod_service_desc">绿色生态 京东精选</p>
+                        </div>
+                    </li>
+                    <li class="mod_service_item item4">
+                        <div class="mod_service_item_inner"><i
+                                class="fresh-mod-iconfont iconfont icon-chandizhicai"></i>
+                            <p class="mod_service_title">产地直采</p>
+                            <p class="mod_service_desc">限定产源 质量保证</p>
+                        </div>
+                    </li>
+                    <li class="mod_service_item item5">
+                        <div class="mod_service_item_inner"><i
+                                class="fresh-mod-iconfont iconfont icon-wuyoushouhou"></i>
+                            <p class="mod_service_title">无忧售后</p>
+                            <p class="mod_service_desc">优鲜赔 售后通道</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 主体第三部分 -->
+            <div class="J_floor fresh_seckill grid_c1" id="fresh_seckill_3">
+                <div class=""><i class="fresh_seckill_bgl"></i><i class="fresh_seckill_bgr"></i>
+                    <div class="fresh_seckill_time ing">
+                        <div class="fresh_seckill_time_tip">距离本场结束还有</div>
+                        <div class="countdown">
+                            <div class="countdown_item countdown_hour"><span class="countdown_item_txt">01</span></div>
+                            <div class="countdown_split">:</div>
+                            <div class="countdown_item countdown_minute"><span class="countdown_item_txt">52</span>
+                            </div>
+                            <div class="countdown_split">:</div>
+                            <div class="countdown_item countdown_second"><span class="countdown_item_txt">56</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab fresh_seckill_tab">
+                        <div class="tab_head">
+                            <div class="tab_head_item active">
+                                <div class="tab_head_item_1" clstag="channel|keycount|3742|tabHeadItem_3_1">
+                                    <div class="fresh_mod_iconfont icon icon-fresh_seckill_morning"></div>
+                                    <div class="name">早市抢鲜</div>
+                                    <div class="tip">10:00 - 16:00</div>
+                                </div>
+                            </div>
+                            <div class="tab_head_item">
+                                <div class="tab_head_item_2" clstag="channel|keycount|3742|tabHeadItem_3_2">
+                                    <div class="fresh_mod_iconfont icon icon-fresh_seckill_afternoon"></div>
+                                    <div class="name">午市预告</div>
+                                    <div class="tip">16:00 开始</div>
+                                </div>
+                            </div>
+                            <div class="tab_head_item">
+                                <div class="tab_head_item_3" clstag="channel|keycount|3742|tabHeadItem_3_3">
+                                    <div class="fresh_mod_iconfont icon icon-fresh_seckill_night_icon"></div>
+                                    <div class="name">晚市预告</div>
+                                    <div class="tip">22:00 开始</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_body">
+                            <div class="tab_body_item1 ing">
+                                <div class="tab_body_item1_goods">
+                                        <button class="fl"><</button>
+                                        <button class="fr">></button>
+                                    <div class="slider">
+                                         <div class="tab_body_item1_goods_item">
+                                                <div class="tab_body_item1_goods_list">
+                                                    <p>
+                                                        <span>￥57.80</span>
+                                                        <span>￥89.40</span>
+                                                    </p>
+                                                    <dl>
+                                                        <dt><img src="../img/首页/b0508da8449cdeeb.jpg" alt=""></dt>
+                                                        <dd>鸥米茄 冷冻进口生蚝肉（牡蛎肉） 500g 袋装 火锅烧烤食材 海鲜水产</dd>
+                                                        <dd>好评率98%</dd>
+                                                        <dd></dd>
+                                                    </dl>
+                                                    <div>立即抢购</div>
+                                                </div>
+                                                <div class="tab_body_item1_goods_list">
+                                                    <p>
+                                                        <span>￥57.80</span>
+                                                        <span>￥89.40</span>
+                                                    </p>
+                                                    <dl>
+                                                        <dt><img src="../img/首页/b0508da8449cdeeb.jpg" alt=""></dt>
+                                                        <dd>鸥米茄 冷冻进口生蚝肉（牡蛎肉） 500g 袋装 火锅烧烤食材 海鲜水产</dd>
+                                                        <dd>好评率98%</dd>
+                                                        <dd></dd>
+                                                    </dl>
+                                                    <div>立即抢购</div>
+                                                </div>
+                                                <div class="tab_body_item1_goods_list">
+                                                    <p>
+                                                        <span>￥57.80</span>
+                                                        <span>￥89.40</span>
+                                                    </p>
+                                                    <dl>
+                                                        <dt><img src="../img/首页/b0508da8449cdeeb.jpg" alt=""></dt>
+                                                        <dd>鸥米茄 冷冻进口生蚝肉（牡蛎肉） 500g 袋装 火锅烧烤食材 海鲜水产</dd>
+                                                        <dd>好评率98%</dd>
+                                                        <dd></dd>
+                                                    </dl>
+                                                    <div>立即抢购</div>
+                                                </div>
+                                                <div class="tab_body_item1_goods_list">
+                                                    <p>
+                                                        <span>￥57.80</span>
+                                                        <span>￥89.40</span>
+                                                    </p>
+                                                    <dl>
+                                                        <dt><img src="../img/首页/b0508da8449cdeeb.jpg" alt=""></dt>
+                                                        <dd>鸥米茄 冷冻进口生蚝肉（牡蛎肉） 500g 袋装 火锅烧烤食材 海鲜水产</dd>
+                                                        <dd>好评率98%</dd>
+                                                        <dd></dd>
+                                                    </dl>
+                                                    <div>立即抢购</div>
+                                                </div>
+                                                <div class="tab_body_item1_goods_list">
+                                                    <p>
+                                                        <span>￥57.80</span>
+                                                        <span>￥89.40</span>
+                                                    </p>
+                                                    <dl>
+                                                        <dt><img src="../img/首页/b0508da8449cdeeb.jpg" alt=""></dt>
+                                                        <dd>鸥米茄 冷冻进口生蚝肉（牡蛎肉） 500g 袋装 火锅烧烤食材 海鲜水产</dd>
+                                                        <dd>好评率98%</dd>
+                                                        <dd></dd>
+                                                    </dl>
+                                                    <div>立即抢购</div>
+                                                </div>
+                                                <div class="tab_body_item1_goods_list">
+                                                    <p>
+                                                        <span>￥57.80</span>
+                                                        <span>￥89.40</span>
+                                                    </p>
+                                                    <dl>
+                                                        <dt><img src="../img/首页/b0508da8449cdeeb.jpg" alt=""></dt>
+                                                        <dd>鸥米茄 冷冻进口生蚝肉（牡蛎肉） 500g 袋装 火锅烧烤食材 海鲜水产</dd>
+                                                        <dd>好评率98%</dd>
+                                                        <dd></dd>
+                                                    </dl>
+                                                    <div>立即抢购</div>
+                                                </div>
+                                                <div class="tab_body_item1_goods_list">
+                                                    <p>
+                                                        <span>￥57.80</span>
+                                                        <span>￥89.40</span>
+                                                    </p>
+                                                    <dl>
+                                                        <dt><img src="../img/首页/b0508da8449cdeeb.jpg" alt=""></dt>
+                                                        <dd>鸥米茄 冷冻进口生蚝肉（牡蛎肉） 500g 袋装 火锅烧烤食材 海鲜水产</dd>
+                                                        <dd>好评率98%</dd>
+                                                        <dd></dd>
+                                                    </dl>
+                                                    <div>立即抢购</div>
+                                                </div>
+                                    </div>
+                                    
+                                  
+                                </div>
+                                <div class="tab_body_item1_goods_lis_span">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+       
+           </div>
+           <!-- 主体第四部分 -->
+           <div class="fresh-4">
+               <div class="fresh-4-backgroud "></div>
+               <div class="fresh-4-content grid_c1 clearfix">
+                    <div class="fresh-4-content-biaoti"><div>
+                        <h3>特 / 色 / 购</h3>
+                        <p>FEATURED FRESH</p>
+                    </div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+               </div>
+           </div>
+         </div>
+    </div>
+</body>
+
+</html>

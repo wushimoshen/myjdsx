@@ -1,0 +1,354 @@
+/* 食品安全 */
+.fresh_service {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 60px !important;
+}
+.grid_c1, .grid_md6 {
+    margin: 0 auto;
+        margin-bottom: 0px;
+    width: 1190px;
+}
+.mod_service_item{
+    position: relative;
+    float: left;
+    width: 20%;
+}
+.mod_service_item_inner{
+    position: relative;
+    margin: 0 30px;
+    padding-left: 50px;
+}
+
+
+.fresh_service .mod_service::before {
+    background: #9d9ea0;
+}
+.mod_service_item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -11px;
+    width: 1px;
+    height: 22px;
+    background: #4dd78e;
+    background: hsla(0,0%,100%,.34);
+}
+.fresh_service .mod_service_title{
+    font-size: 18px;
+    color: #5e5f61;
+}
+.fresh_service .mod_service_desc {
+    color: #b5b4b6;
+}
+
+.fresh-mod-iconfont {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+}
+/* 倒计时开枪 */
+.fresh_seckill{
+    height: 542px;
+    position: relative;
+    margin-bottom: 80px
+}
+.fresh_seckill>div{
+    width: 100%;
+    height: 100%;
+}
+.fresh_seckill_tab{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+/*背景1 */
+.fresh_seckill_bgl {
+    position: absolute;
+    left: -150px;
+    bottom: 18px;
+    width: 709px;
+    height: 710px;
+    background: url(http://static.360buyimg.com/mtd/pc/fresh_v3/1.0.0/home/images/fresh_seckill_bg_l.png) 0 0 no-repeat;
+}
+/* 背景2 */
+.fresh_seckill_bgr {
+    position: absolute;
+    right: -71px;
+    top: 125px;
+    background-image: url(http://static.360buyimg.com/mtd/pc/fresh_v3/1.0.0/home/images/sprite_fresh_bgs.png);
+    background-position: -335px -205px;
+    background-repeat: no-repeat;
+    width: 145px;
+    height: 145px;
+}
+/* 倒计时位置样式 */
+.fresh_seckill_time {
+    position: absolute;
+    z-index: 3;
+    right: 10px;
+    top: 0;
+    width: 327px;
+    height: 90px;
+    text-align: center;
+}
+.fresh_seckill_time_tip {
+    padding: 7px 0 8px;
+    color: #fff;
+}
+/* 时间上面的划线 */
+.fresh_seckill_time .countdown_item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    width: 100%;
+    height: 2px;
+    background: #00c65d;
+}
+.fresh_seckill_time .countdown_item {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 46px;
+    line-height: 46px;
+    background: #222;
+}
+.fresh_seckill_time .countdown_split::after {
+    bottom: 14px;
+}
+/* 时间冒号 */
+.fresh_seckill_time .countdown_split::after,
+ .fresh_seckill_time .countdown_split::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    background: #222;
+}
+.fresh_seckill_time .countdown_split::before {
+    top: 14px;
+}
+.fresh_seckill_time .countdown_split {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 14px;
+    margin: 0 12px;
+    width: 4px;
+    height: 100%;
+    color: transparent;
+}
+/* 数字 */
+.fresh_seckill_time .countdown_item_txt {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 50px;
+    height: 46px;
+    font-size: 36px;
+    font-family: Arial;
+    color: #fff;
+}
+/* 头部标题 */
+.fresh_seckill_tab .tab_head{
+    padding-left: 50px;
+    height: 100px;
+    background: url(http://static.360buyimg.com/mtd/pc/fresh_v3/1.0.0/home/images/fresh_seckill_head_bg.png) 0 0 no-repeat;
+}
+
+.fresh_seckill_tab .tab_head_item {
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 0 16px 60px;
+    width: 130px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #909090;
+    cursor: pointer;
+}
+.tab_head_item_1{
+    color: #00c65d;
+}
+/* 内部结构 */
+.fresh_seckill_tab .tab_body{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1170px;
+    height: 432px;
+    background: hsla(0, 0%, 100%, .95);
+    border: 10px solid #646464;
+    border-top: none;
+}
+/* 列表轮播图 */
+.tab_body_item1_goods .slider {
+    margin: 0 35px;
+    width: 1100px;
+    position: relative;
+    height: 403px;
+    overflow: hidden;
+}
+.tab_body_item1_goods_item{
+    width: 5500px;
+}
+.tab_body_item1_goods_list{
+    width: 220px;
+    float: left;
+    height: 345px;
+    padding: 40px 20px 0;
+    box-sizing: border-box;
+}
+.tab_body_item1_goods  .fl{
+    left: 0px;
+}
+.tab_body_item1_goods  .fr{
+    right: 0px;
+}
+.tab_body_item1_goods button{
+    display:block;
+    /* width:20px; */
+    font-family: 'Courier New', Courier, monospace;
+    height: 45px;
+    position: absolute;
+    top:50%;
+    margin-top: -22.5px;
+    color:#fff;
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.tab_body_item1_goods_list dl dd:nth-child(2){
+    margin-bottom: 14px;
+    height: 54px;
+    line-height: 1.7;
+    white-space: normal;
+    font-size: 16px;
+    color: #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+.tab_body_item1_goods_list dl dd:nth-child(3){
+    text-align: center;
+    color: #909090;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.tab_body_item1_goods_list dl dd:nth-child(4){
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: orangered;
+    position: relative;
+}
+/* 立即抢购 */
+.tab_body_item1_goods_list div{
+    position: relative;
+    /* width: 220px; */
+    left: 0;
+    top: 0;
+    background: #ff541f;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.tab_body_item1_goods_list p{
+    /* position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -90px; */
+    position: relative;
+    top: -20px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    background: #ff541f;
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+    font-family: Arial;
+}
+.tab_body_item1_goods_lis_span {
+    text-align: center;
+}
+.tab_body_item1_goods_lis_span span{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    border-radius: 6px;
+    border:1px solid #4dd78e;
+}
+/* 第四部分 */
+
+
+
+
+
+
+
+.fresh-4{
+    position: relative;
+    height: 1272px;
+    margin-bottom: 78px;
+}
+.fresh-4-backgroud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 440px;
+    background: #1e1d22 url(http://static.360buyimg.com/mtd/pc/fresh_v3/1.0.0/home/images/fresh_unique_bg.jpg) 50% no-repeat;
+}
+.fresh-4-content{
+    height: 1270px;
+    position: relative;
+    z-index: 2;
+    margin-top: 60px;
+    
+}
+.fresh-4-content-biaoti{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    height: 60px;
+    background: url(http://static.360buyimg.com/mtd/pc/fresh_v3/1.0.0/home/images/fresh_mod_head_bg.png) 0 0 no-repeat;
+}
+
+.fresh-4-content-biaoti h3{
+    margin: 0 auto;
+    width: 284px;
+    text-align: center;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    font-size: 28px;
+    font-weight: 400;
+    overflow: hidden;
+
+}
+.fresh-4-content-biaoti p{
+    margin: 0 auto;
+    width: 284px;
+    text-align: center;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+}

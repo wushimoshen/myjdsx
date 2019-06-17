@@ -1,0 +1,76 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#jdliebiao {
+    width: 1210px;
+    margin: 0 auto;
+    /* background: #cccccc; */
+    /* height: 601px; */
+}
+
+#jdliebiao .box1 {
+    float: left;
+    width: 180px;
+    /* height: 100%; */
+    border: 1px solid #dddddd;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#jdliebiao .box2 {
+    float: left;
+    width: 1020px;
+    /* height: 100%; */
+    border: 1px solid #dddddd;
+    position: relative;
+    border-left: none;
+}
+
+.box1 h3 {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 36px;
+
+}
+
+.box2-list {
+    padding-left: 10px;
+    width: 100%;
+    height: 38px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+.box2-list li {
+    float: left;
+    height: 25px;
+
+}
+
+.box2-list li a {
+    padding: 0 9px;
+    height: 23px;
+    border: 1px solid #CCC;
+    line-height: 23px;
+    /* margin-right: -1px; */
+    background: #FFF;
+    color: #333;
+}
+
+.box2-list li i {
+    display: inline-block;
+    height: 11px;
+    width: 7px;
+    background: url(http://misc.360buyimg.com/product/search/1.0.7/css/i/sprite-arrow.png) no-repeat 0 -100px;
+}
+
+.box2-list li a:hover {
+    border-color: #e4393c;
+    color: #e4393c;
+}

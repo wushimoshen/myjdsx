@@ -1,0 +1,64 @@
+.tab_body {
+    position:absolute;
+    left:190px;
+    top:40px;
+    overflow: hidden;
+   }
+.tab_body_item {
+    padding:10px 20px;
+    width:760px;
+    height:378px;
+    background:#fff;
+    overflow:hidden;
+    border:1px solid #ddd
+   }
+   .fresh_fs_nav_cate {
+    float:left;
+    width:760px
+   }
+   .fresh_fs_nav_cate .cate_item {
+    position:relative;
+    padding-left:80px
+   }
+   .fresh_fs_nav_cate .cate_item.item1 .cate_con {
+    border-top:none
+   }
+   .fresh_fs_nav_cate .cate_tit {
+    overflow:hidden;
+    position:absolute;
+    left:0;
+    top:9px;
+    width:70px;
+    text-align:right;
+    font-weight:700;
+    white-space:nowrap;
+    text-overflow:ellipsis
+   }
+   .fresh_fs_nav_cate .cate_tit_lk {
+    color:#666
+   }
+   .fresh_fs_nav_cate .cate_tit_lk:hover {
+    color:#00c65d
+   }
+   .fresh_fs_nav_cate .cate_tit_arrow {
+    font-family:simsun;
+    margin-left:5px
+   }
+   .fresh_fs_nav_cate .cate_con {
+    overflow:hidden;
+    padding:6px 0;
+    border-top:1px solid #eee
+   }
+   .fresh_fs_nav_cate .cate_con_lk {
+    float:left;
+    margin:4px 0;
+    padding:0 10px;
+    height:16px;
+    border-left:1px solid #e0e0e0;
+    line-height:16px;
+    white-space:nowrap;
+    color:#666
+   }
+   .fresh_fs_nav_cate .cate_con_lk:hover {
+    color:#00c65d
+   }
